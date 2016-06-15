@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+
+*:focus {
+    outline: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: whitesmoke;
+}
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    padding: 3px 20px;
+    text-align: center;
+}
+.image{
+    border-radius: 5px;
+    margin:0 20px 10px 0;
+    float: left;
+}
+.list{
+    min-height: 150px;
+    margin-bottom: 70px;
+}
+.friends{
+    clear: both;
+    margin-top: 20px;
+}
+.msg{
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 50px;
+    transition: all .2s ease;
+    font-style: italic;
+}
+.msg:hover{
+    box-shadow: inset 0px 0px 2px 1px #000;
+}
